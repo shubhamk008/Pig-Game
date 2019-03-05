@@ -17,6 +17,9 @@ function resetGame() {
     // Remove Winner! tag from the last game winner
     document.querySelector('.player-1-title').innerHTML = 'Player 1';
     document.querySelector('.player-2-title').innerHTML = 'Player 2';
+    
+    // Reset dice to 1
+    document.querySelector('.diceImage').src = './media/dice-1.png';
 
     // Unhide Roll Dice and Hold buttons
     document.querySelector('.rollDice-box').classList.remove('hideMe');
