@@ -127,10 +127,10 @@ body {
 }
 
 .activePlayer-dot {
-    display: inline-block;
+    display: inline-block !important;
 }
 
-.inactivePlayer-dot {
+.playerOneDot, .playerTwoDot {
     display: none;
 }
 
