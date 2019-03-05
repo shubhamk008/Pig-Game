@@ -18,6 +18,16 @@ function resetGame() {
     document.querySelector('.player-1-title').innerHTML = 'Player 1';
     document.querySelector('.player-2-title').innerHTML = 'Player 2';
     
+    // Make Player 1 style default
+    document.querySelector('.player-leftBox').classList.remove('active-player');
+    document.querySelector('.player-rightBox').classList.remove('active-player');
+    document.querySelector('.player-leftBox').classList.add('active-player');
+    
+    // Show Player 1's active dot
+    document.querySelector('.playerOneDot').classList.remove('activePlayer-dot');
+    document.querySelector('.playerTwoDot').classList.remove('activePlayer-dot');
+    document.querySelector('.playerOneDot').classList.add('activePlayer-dot');
+
     // Reset dice to 1
     document.querySelector('.diceImage').src = './media/dice-1.png';
 
