@@ -1,0 +1,144 @@
+body {
+    background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg');
+    font-family: 'IBM Plex Sans', sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.game-Container {
+    padding: 0 8rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameBox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active-player {
+    background-color: #eee !important;
+}
+
+.activePlayer-title {
+    color: #000 !important;
+}
+
+.flexBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-box {
+    height: 30rem;
+    width: 25rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.player-title {
+    font-size: 1.75rem;
+    color: #aaa;
+}
+
+.player-masterScore {
+    margin-top: 1rem;
+    font-size: 2.75rem;
+    color: rgb(17, 92, 110);
+}
+
+.currentScore-box {
+    margin-top: 5rem;
+    height: 6rem;
+    width: 8rem;
+    background-color: rgb(17, 92, 110);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.currentScore-title {
+    text-transform: uppercase;
+}
+
+.newGame-box {
+    color: #aaa;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 4rem;
+}
+
+.newGame-box:hover {
+    color: rgb(17, 92, 110);
+    transition: 0.5s;
+}
+
+.dice-box {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10.5rem;
+}
+
+.rollDice-box {
+    color: #aaa;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20.5rem;
+}
+
+.rollDice-box:hover {
+    color: rgb(17, 92, 110);
+    transition: 0.5s;
+}
+
+.hold-box {
+    color: #aaa;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 22.5rem;
+}
+
+.hold-box:hover {
+    color: rgb(17, 92, 110);
+    transition: 0.5s;
+}
+
+.text-nextTo-icon {
+    margin-left: 0.5rem;
+}
+
+.icon-blue {
+    color: rgb(17, 92, 110);
+}
+
+.activePlayer-dot {
+    display: inline-block;
+}
+
+.inactivePlayer-dot {
+    display: none;
+}
+
+.diceImage {
+    height: 4rem;
+    width: 4rem;
+}
+
+.hideMe {
+    display: none !important;
+}

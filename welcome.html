@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pig Game</title>
+</head>
+
+<body>
+
+    <div class="container game-Container">
+        <div class="row gameBox">
+
+            <div class="col-6 player-box active-player">
+                <div class="flexBox">
+                    <div class="activePlayer-title player-title player-1-title">
+                        Player 1
+                    </div>
+                    <div class="text-nextTo-icon activePlayer-dot">
+                        <i class="fas icon-blue fa-circle"></i>
+                    </div>
+                </div>
+                <div class="flexBox player-masterScore player-1-masterScore">
+                    0
+                </div>
+                <div class="currentScore-box">
+                    <div class="currentScore-title">Current</div>
+                    <div class="player-currentScore player-1-currentScore">0</div>
+                </div>
+            </div>
+            <div class="col-6 player-box">
+                <div class="flexBox">
+                    <div class="player-title player-2-title">
+                        Player 2
+                    </div>
+                    <div class="text-nextTo-icon inactivePlayer-dot">
+                        <i class="fas icon-blue fa-circle"></i>
+                    </div>
+                </div>
+                <div class="flexBox player-masterScore player-2-masterScore">
+                    0
+                </div>
+                <div class="currentScore-box">
+                    <div class="currentScore-title">Current</div>
+                    <div class="player-currentScore player-2-currentScore">0</div>
+                </div>
+            </div>
+
+            <div class="newGame-box"><i class="fas fa-plus-circle"></i><span class="text-nextTo-icon">New
+                    Game</span></div>
+            <div class="dice-box ">
+                <img src="./media/dice-1.png" class="diceImage">
+            </div>
+            <div class="rollDice-box"><i class="fas fa-sync-alt"></i><span class="text-nextTo-icon">Roll Dice</span></div>
+            <div class="hold-box"><i class="fas fa-arrow-down"></i><span class="text-nextTo-icon">Hold</span></div>
+
+        </div>
+    </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+
+</html>
